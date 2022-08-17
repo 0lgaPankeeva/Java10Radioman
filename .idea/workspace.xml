@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bce39402-15b9-494d-9c64-b47a38412d88" name="Changes" comment="" />
+    <list default="true" id="bce39402-15b9-494d-9c64-b47a38412d88" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/RadioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/RadioTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lombok" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -31,19 +40,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_directory_selection": "C:/Users/panke/IdeaProjects/Java10Radioman/src/test/java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/panke/IdeaProjects/Java10Radioman/src/test/java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RadioTest.increaseVolume2">
+  <component name="RunManager" selected="JUnit.RadioTest">
     <configuration name="RadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java10Radioman" />
       <extension name="coverage">
@@ -107,12 +116,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RadioTest.stationCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java10Radioman" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.netology.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.netology" />
+      <option name="MAIN_CLASS_NAME" value="ru.netology.RadioTest" />
+      <option name="METHOD_NAME" value="stationCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RadioTest" />
+        <item itemvalue="JUnit.RadioTest.stationCount" />
         <item itemvalue="JUnit.RadioTest.increaseVolume2" />
         <item itemvalue="JUnit.RadioTest.increaseVolumeMax" />
         <item itemvalue="JUnit.RadioTest.constructor" />
-        <item itemvalue="JUnit.RadioTest" />
       </list>
     </recent_temporary>
   </component>
