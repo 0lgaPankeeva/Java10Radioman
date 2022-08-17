@@ -58,7 +58,7 @@ public class RadioTest {
     }
 
     @Test
-    public void SetCurrentStation() {
+    public void setCurrentStation() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(7);
@@ -70,7 +70,7 @@ public class RadioTest {
     }
 
     @Test
-    public void SetCurrentStationMin() {
+    public void setCurrentStationMin() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(-1);
@@ -82,7 +82,7 @@ public class RadioTest {
     }
 
     @Test
-    public void CurrentStationMax() {
+    public void currentStationMax() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(10);
@@ -235,12 +235,12 @@ public class RadioTest {
     }
 
     @Test
-    public void DecreaseVolume1() {
+    public void decreaseVolume1() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(5);
 
-        radio.DecreaseVolume();
+        radio.decreaseVolume();
 
         int actual = radio.getCurrentVolume();
         int expected = 4;
@@ -250,12 +250,12 @@ public class RadioTest {
     }
 
     @Test
-    public void DecreaseVolumeMin() {
+    public void decreaseVolumeMin() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(-1);
 
-        radio.DecreaseVolume();
+        radio.decreaseVolume();
 
         int actual = radio.getCurrentVolume();
         int expected = 0;
@@ -265,7 +265,7 @@ public class RadioTest {
     }
 
     @Test
-    public void SetCurrentVolume () {
+    public void setCurrentVolume () {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(3);

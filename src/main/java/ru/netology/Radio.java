@@ -15,12 +15,11 @@ public class Radio {
     private int currentStation = MinStation;
 
 
-
     private int MaxVolume = 100;
-    private int MinVolume =0;
+    private int MinVolume = 0;
     private int currentVolume = MinVolume;
 
-    public Radio (int MinStation, int MaxStation) {
+    public Radio(int MinStation, int MaxStation) {
         this.MinStation = MinStation;
         this.MaxStation = MaxStation;
         this.currentStation = MinStation;
@@ -31,10 +30,12 @@ public class Radio {
 
 
     public int getMaxStation() {
+
         return MaxStation;
     }
 
     public int getMinStation() {
+
         return MinStation;
     }
 
@@ -74,7 +75,7 @@ public class Radio {
         }
     }
 
-    public void DecreaseVolume() {
+    public void decreaseVolume() {
 
         if (currentVolume > MinVolume) {
             currentVolume = currentVolume - 1;
